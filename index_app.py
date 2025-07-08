@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Central de Aplicativos DER-DF", page_icon="🧰", layout="wide")
 
-# CSS para título e responsividade
+# CSS para título e controle de tamanho da imagem
 st.markdown("""
     <style>
         .main-title {
@@ -12,9 +12,18 @@ st.markdown("""
             color: #003366;
             margin-bottom: 10px;
         }
+        .logo-img {
+            max-width: 150px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
         @media (max-width: 768px) {
             .main-title {
                 font-size: 1.4em;
+            }
+            .logo-img {
+                max-width: 100px;
             }
         }
     </style>
@@ -24,13 +33,13 @@ st.markdown("""
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    st.image("brasao_fisc.png", use_column_width=True)
+    st.image("brasao_fisc.png", use_container_width=True)
 
 with col2:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 
 with col3:
-    st.image("brasao_der.png", use_column_width=True)
+    st.image("brasao_der.png", use_container_width=True)
 
 st.markdown("---")
 
