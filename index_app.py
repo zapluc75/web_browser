@@ -13,7 +13,7 @@ st.markdown("""
             margin-bottom: 10px;
         }
         .logo-img {
-            max-width: 150px;
+            max-width: 75px;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -23,7 +23,7 @@ st.markdown("""
                 font-size: 1.4em;
             }
             .logo-img {
-                max-width: 100px;
+                max-width: 60px;
             }
         }
     </style>
