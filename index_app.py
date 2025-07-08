@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 # Configuração da página
 st.set_page_config(page_title="Central de Aplicativos DER-DF", page_icon="🧰", layout="wide")
@@ -82,4 +83,5 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("---")
+st.write("Arquivos encontrados:", os.listdir())
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud", unsafe_allow_html=True)
