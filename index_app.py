@@ -36,7 +36,7 @@ with col1:
    st.image("brasao_fisc.png", use_container_width=True)
     
 with col2:
-    st.image("F1.png", use_container_width=True)
+    st.image("F1.jpg", use_container_width=True)
 
 with col3:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
