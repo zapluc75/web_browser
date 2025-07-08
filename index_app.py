@@ -2,9 +2,9 @@ import streamlit as st
 
 st.set_page_config(page_title="Central de Aplicativos DER-DF", page_icon="🧰", layout="wide")
 
-# CSS para controle fino das imagens
+# CSS para título e controle de tamanho da imagem
 st.markdown("""
-    <style>
+   <style>
         .main-title {
             text-align: center;
             font-size: 2em;
@@ -29,21 +29,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Cabeçalho com colunas e imagens reduzidas
+# Cabeçalho com imagens e título centralizado
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    st.markdown('<img src="brasao_fisc.png" class="logo-img">', unsafe_allow_html=True)
+    st.image("brasao_fisc.png", use_container_width=True)
 
 with col2:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 
 with col3:
-    st.markdown('<img src="brasao_der.png" class="logo-img">', unsafe_allow_html=True)
+    st.image("brasao_der.png", use_container_width=True)
 
 st.markdown("---")
 
-# Links para os apps
+# Links dos aplicativos
 st.markdown("""
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
 ### 📦 [Pesos e Dimensões](https://pesosedimensoes-software002.streamlit.app/)
