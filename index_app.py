@@ -57,9 +57,9 @@ st.markdown("""
 # Cabeçalho com brasões e título
 st.markdown("""
 <div class="centered-container">
-    <img src="Brasao fisc sem fundo.png" class="logo-img" alt="Fiscalização DER-DF">
+    <img src="Brasao_fisc.png" class="logo-img" alt="Fiscalização DER-DF">
     <div class="main-title">🧰 Central de Aplicativos DER-DF</div>
-    <img src="Brasao sem fundo 2.png" class="logo-img" alt="Departamento DER-DF">
+    <img src="Brasao_f2.png" class="logo-img" alt="Departamento DER-DF">
 </div>
 """, unsafe_allow_html=True)
 
