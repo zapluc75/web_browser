@@ -4,7 +4,7 @@ st.set_page_config(page_title="Central de Aplicativos DER-DF", page_icon="🧰",
 
 # CSS para título e controle de tamanho da imagem
 st.markdown("""
-    <style>
+   <style>
         .main-title {
             text-align: center;
             font-size: 2em;
