@@ -33,8 +33,8 @@ st.markdown("""
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    st.image("brasao_fisc.png", use_container_width=True)
-
+   st.markdown('<img src="brasao_fisc.png" width="200"/>', unsafe_allow_html=True)
+    
 with col2:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 
