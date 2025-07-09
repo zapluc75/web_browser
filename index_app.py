@@ -36,13 +36,13 @@ with col1:
    st.image("brasao_fisc.png", use_container_width=True)
     
 with col2:
-    st.image("F1.jpg", use_container_width=True)
+    
 
 with col3:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 
 with col4:
-    st.image("F1.jpg", use_container_width=True)
+   
 
 with col5:
     st.image("brasao_der.png", use_container_width=True)
@@ -54,7 +54,6 @@ st.markdown("""
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
 ### 📦 [Pesos e Dimensões](https://pesosedimensoes-software002.streamlit.app/)
 """)
-st.markdown('<img src="brasao_der.png" class="logo-img">', unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
