@@ -33,7 +33,7 @@ st.markdown("""
 col1, col2, col3, col4, col5 = st.columns([1, 0.5, 2, 0.5, 1])
 
 with col2:
-   st.image("brasao_fisc.png", width=64)
+   st.image("brasao_fisc.png", use_container_width=True)
     
 
 with col3:
@@ -41,7 +41,7 @@ with col3:
 
  
 with col4:
-   st.image("brasao_der.png", width=64)
+   st.image("brasao_der.png", use_container_width=True)
 
 st.markdown("---")
 
