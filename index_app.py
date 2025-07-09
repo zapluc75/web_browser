@@ -54,6 +54,7 @@ st.markdown("""
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
 ### 📦 [Pesos e Dimensões](https://pesosedimensoes-software002.streamlit.app/)
 """)
+st.markdown('<img src="brasao_der.png" class="logo-img">', unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
