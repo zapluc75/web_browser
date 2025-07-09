@@ -30,7 +30,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Cabeçalho com imagens e título centralizado
-col1, col2, col3, col4, col5 = st.columns([0.2, 1, 2, 1, 0.2])
+col1, col2, col3, col4, col5 = st.columns([1, 0.2, 2, 0.2, 1])
 
 with col1:
    st.image("brasao_fisc.png", use_container_width=True)
