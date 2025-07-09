@@ -32,7 +32,7 @@ st.markdown("""
 # Cabeçalho com imagens e título centralizado
 col1, col2, col3, col4, col5 = st.columns([0.5, 0.5, 2, 0.5, 0.5])
 
-with col1:
+with col2:
    st.image("brasao_fisc.png", use_container_width=True)
     
 
@@ -40,7 +40,7 @@ with col3:
     st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 
  
-with col5:
+with col4:
     st.image("brasao_der.png", use_container_width=True)
 
 st.markdown("---")
