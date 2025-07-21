@@ -48,7 +48,7 @@ st.markdown("---")
 # Links dos aplicativos
 st.markdown("""
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
-### 📦 [Pesos e Dimensões](https://pesosedimensoes-software002.streamlit.app/)
+### 📦 [Pesos e Dimensões](https://pesos-dimensoes-software002.streamlit.app/)
 """)
 
 st.markdown("---")
