@@ -49,7 +49,9 @@ st.markdown("---")
 st.markdown("""
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
 ### 📦 [Pesos e Dimensões](https://Pesos-Dimensoes-software002.streamlit.app/)
+### 📄 [Cronotacógrafo](https://cronotacografo.rbmlq.gov.br/certificados/consultar)
 """)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
