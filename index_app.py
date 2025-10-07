@@ -48,13 +48,13 @@ st.markdown("---")
 # Links dos aplicativos
 st.markdown("""
 ### 📦 [Pesos e Dimensões](https://Pesos-Dimensoes-software002.streamlit.app/)
-### 🚚 [Cronotacógrafo](https://cronotacografo.rbmlq.gov.br/certificados/consultar)
 ### 🔐 [Gerar Usuário PeD](https://gerar-senha-software004.streamlit.app/)
 ### 📄 [Merge de PDFs](https://pdfmerge-software001.streamlit.app/)
 """)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
