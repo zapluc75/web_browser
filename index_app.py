@@ -35,7 +35,7 @@ col1, col2, col3, col4, col5 = st.columns([1, 0.5, 2, 0.5, 1])
 
 with col3:
     
-   st.image("brasao_fisc.png", use_container_width=True)
+   st.image("brasao_der.png", use_container_width=True)
  
 
 st.markdown("---")
@@ -48,6 +48,7 @@ st.markdown("""
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
