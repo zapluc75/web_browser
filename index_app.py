@@ -14,7 +14,7 @@ st.markdown("""
             margin-bottom: 10px;
         }
         .logo-img {
-            max-width: 75px;
+            max-width: 45px;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -24,7 +24,7 @@ st.markdown("""
                 font-size: 1.4em;
             }
             .logo-img {
-                max-width: 60px;
+                max-width: 30px;
             }
         }
     </style>
@@ -48,6 +48,7 @@ st.markdown("""
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
