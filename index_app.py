@@ -31,9 +31,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Cabeçalho com imagens e título centralizado
-col1, col2, col3, col4, col5 = st.columns([1, 0.5, 2, 0.5, 1])
+col1, col2, col3 = st.columns([2, 0.5, 2])
 
-with col3:
+with col2:
     
    st.image("brasao_der.png", use_container_width=True)
  
@@ -48,6 +48,7 @@ st.markdown("""
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
