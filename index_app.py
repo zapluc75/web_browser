@@ -3,6 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Central de Aplicativos DER-DF", page_icon="🧰", layout="wide")
 
 # CSS para título e controle de tamanho da imagem
+st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
 st.markdown("""
    <style>
         .main-title {
@@ -32,16 +33,10 @@ st.markdown("""
 # Cabeçalho com imagens e título centralizado
 col1, col2, col3, col4, col5 = st.columns([1, 0.5, 2, 0.5, 1])
 
-with col2:
-   st.image("brasao_fisc.png", use_container_width=True)
-    
-
 with col3:
-    st.markdown("<div class='main-title'>🧰 Central de Aplicativos DER-DF</div>", unsafe_allow_html=True)
-
+    
+   st.image("brasao_fisc.png", use_container_width=True)
  
-with col4:
-   st.image("brasao_der.png", use_container_width=True)
 
 st.markdown("---")
 
@@ -53,6 +48,7 @@ st.markdown("""
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
