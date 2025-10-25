@@ -41,7 +41,7 @@ with col2:
 st.markdown("---")
 
 # Links dos aplicativos
-col_l, col_c, col_r = st.columns([1, 1, 1])  # Botão centralizado usando colunas
+col_l, col_c, col_r = st.columns()  # Botão centralizado usando colunas
     
    with col_c:
       st.markdown("""
@@ -51,6 +51,7 @@ col_l, col_c, col_r = st.columns([1, 1, 1])  # Botão centralizado usando coluna
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
