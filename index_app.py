@@ -41,13 +41,17 @@ with col2:
 st.markdown("---")
 
 # Links dos aplicativos
-st.markdown("""
-### 📦 [Pesos e Dimensões](https://Pesos-Dimensoes-software002.streamlit.app/)
-### 🔐 [Gerar Usuário PeD](https://gerar-senha-software004.streamlit.app/)
-""")
+col_l, col_c, col_r = st.columns([1, 1, 1])  # Botão centralizado usando colunas
+    
+   with col_c:
+      st.markdown("""
+      ### 📦 [Pesos e Dimensões](https://Pesos-Dimensoes-software002.streamlit.app/)
+      ### 🔐 [Gerar Usuário PeD](https://gerar-senha-software004.streamlit.app/)
+      """)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
