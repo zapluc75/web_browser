@@ -46,10 +46,12 @@ with col_c:
    st.markdown("""
    ### 📦 [Pesos e Dimensões](https://Pesos-Dimensoes-software002.streamlit.app/)
    ### 🔐 [Gerar Usuário PeD](https://gerar-senha-software004.streamlit.app/)
+   ### 📊 [Gráfico GEOPE](https://graficogeopepowerbi.streamlit.app/)
    """)
 
 st.markdown("---")
 st.markdown("🔗 Desenvolvido por Luc • Apps hospedados via Streamlit Cloud")
+
 
 
 
